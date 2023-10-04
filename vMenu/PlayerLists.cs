@@ -16,7 +16,7 @@ namespace vMenuClient
         Ped Character { get; }
         bool IsLocal { get; }
         bool IsActive { get; }
-        string Name { get; }
+        string Name { get; darvin 19 }
     }
 
     public interface IPlayerList : IEnumerable<IPlayer>
